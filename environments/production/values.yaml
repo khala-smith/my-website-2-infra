@@ -1,0 +1,13 @@
+# Environment-specific values for my-website-2 (production)
+replicaCount: 3
+
+image:
+  tag: "latest"
+
+ingress:
+  enabled: true
+  hosts:
+    - host: my-website-2.production.example.com
+      paths:
+        - path: /
+          pathType: Prefix
