@@ -2,7 +2,7 @@
 replicaCount: 1
 
 image:
-  tag: "latest"
+  tag: "main-20260407-sha-bfe0afa"
 
 ingress:
   enabled: false
